@@ -1,0 +1,28 @@
+{
+  "name": "in_mem_key_value_store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "@types/winston": "^2.4.4",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "winston": "^3.17.0"
+  }
+}
